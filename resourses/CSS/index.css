@@ -83,3 +83,16 @@ color: rgb(201 0 124);
 #ProfilePhoto {
   border-radius: 10px;
 }
+
+.cardProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+.cardProject img {
+  max-width: 250px;
+  height: auto;
+}
