@@ -87,12 +87,21 @@ color: rgb(201 0 124);
 .cardProject {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin-left: -6%;
 }
 
 
 .cardProject img {
-  max-width: 250px;
+  max-width: 500px;
   height: auto;
+}
+
+.cardProject figure {
+  transition: 0.4s ease-in ;
+}
+
+.cardProject figure:hover {
+  transform: scale(1.2);
+  
 }
