@@ -10,6 +10,78 @@ html {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 80%;
+  }
+
+  .cardProject img {
+    max-width: 100px;
+  
+  }
+
+  .skills img , .contact img {
+    max-width: 10%;
+  }
+
+  #ProfilePhoto {
+    max-width: 20%;
+  }
+
+  p {
+    font-size: 130%;
+  }
+
+  .contact, .skills, .projects {
+    margin-top: 10%;
+    margin-bottom: 0%;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 80%;
+  }
+
+  .cardProject img {
+    max-width: 300px;
+    height: auto;
+    margin: 1%;
+    margin-bottom: 2%;
+  }
+
+  #AboutMe_Link {
+    display: none;
+  }
+
+  .skills img , .contact img {
+    max-width: 10%;
+    margin-right: 3%;
+    transition: 0.5s;
+  }
+
+  #ProfilePhoto {
+    max-width: 30%;
+  }
+
+  p {
+    font-weight: 500;
+    color: plum;
+    display: inline;
+    float: right;
+    width: 62%;
+    margin-left: 4%;
+    font-size: 120%;
+  }
+
+  .contact, .skills, .projects {
+    margin-top: 10%;
+    margin-bottom: 0%;
+  }
+
+}
+
 p {
 font-weight: 500;
 margin-top: 2%;
@@ -95,10 +167,13 @@ color: rgb(201 0 124);
 .cardProject img {
   max-width: 500px;
   height: auto;
+  margin: 1%;
+  margin-bottom: 2%;
 }
 
 .cardProject figure {
   transition: 0.4s ease-in ;
+  margin-bottom: 2%;
 }
 
 .cardProject figure:hover {
