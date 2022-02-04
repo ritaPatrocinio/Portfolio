@@ -3,6 +3,8 @@
   box-sizing: border-box;
   /* color: rgb(226, 43, 156); */
   color: #fce4ec;
+  font-family: monospace;
+  font-size: 105%;
   
 }
 
@@ -14,20 +16,21 @@ button {
     font-family: monospace;
     cursor: pointer;
     color: #000937;
+    font-size: 90%;
 }
 #Light {
   margin-right: 13%;
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 120%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 130%;
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   html {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .cardProject img {
@@ -43,9 +46,9 @@ html {
     max-width: 20%;
   }
 
-  p {
-    font-size: 130%;
-  }
+  /* p {
+    font-size: 140%;
+  } */
 
   .contact, .skills, .projects {
     margin-top: 10%;
@@ -56,7 +59,7 @@ html {
 
 @media only screen and (max-width: 700px) {
   html {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .cardProject img {
@@ -77,7 +80,7 @@ html {
   }
 
   #ProfilePhoto {
-    max-width: 30%;
+    max-width: 20%;
   }
 
   p {
@@ -86,7 +89,7 @@ html {
     float: right;
     width: 62%;
     margin-left: 4%;
-    font-size: 120%;
+    /* font-size: 130%; */
   }
 
   .contact, .skills, .projects {
@@ -97,7 +100,7 @@ html {
 }
 
 p {
-  font-size: 100%;
+  font-size: 105%;
     line-height: 1.5;
     text-align: justify;
     vertical-align: middle;
@@ -110,6 +113,7 @@ p {
 
 h1, h2 , h3 {
 font-weight: 700;
+font-size: 150%;
 }
 
 body {
@@ -133,7 +137,7 @@ nav li :hover {
 display: inline;
 float: right;
 text-decoration: none;
-color:#d1b7ff;
+/* color:#d1b7ff; */
 }
 
 nav a {
