@@ -11,51 +11,57 @@
         <button id="Light">Light</button>
         <button id="Dark">Dark</button>
     </div>
-    <header>
+    <header class="flexSB">
         <h2>Rita Patrocínio</h2>
         <nav>
             <ul>
-                <li id="AboutMe_Link"><a href="#AboutMe">About Me</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Skills">Skills</a></li>
+                <!-- <li id="AboutMe_Link"><a href="#AboutMe">About Me</a></li> -->
                 <li ><a href="#Contact">Contact</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
             </ul>
         </nav>
     </header>
     <main>
-    <h1>About Me</h1>
-    <img id="ProfilePhoto" src="resourses/images/thumbnail_IMG_20191103_212734_607.jpg" alt="Profile Photo">
-    <p>Hi! I'm Rita, a web developer based in Lisbon.</p>
+    <!-- <h1>About Me</h1> -->
+    <div class="flex">
+        <img id="ProfilePhoto" src="resourses/images/thumbnail_IMG_20191103_212734_607.jpg" alt="Profile Photo">
+        <p>Hi! I'm Rita, a web developer based in Lisbon. I’m proficient in web development technologies such as HTML, CSS, JavaScript/ES6, 
+            ReactJS, and Git. I have strong communication skills and a good ability to
+            communicate technical issues and solutions, as well as excellent problem-solving skills 
+            and self-motivation to prioritize and manage workload.
+            </p>
+    </div>
     <h2 id="Projects" class="projects">Projects</h2>
     <div class="cardProject" >
         <figure>
-            <img src="./resourses/images/Screenshot_teaCozy.png" alt="Tea Cozy Project" title="Tea Cozy Project">
-            <figcaption>Tea Cozy</figcaption>
+            <a target="blank" href="https://plausible-comments.surge.sh/"><img src="./resourses/images/projects/CommentsProject.PNG" alt="Comments section" title="Comments section"></a>
+            <figcaption>Comments section in react</figcaption>
         </figure>
         <figure>
-            <a href="https://ritapatrocinio.github.io/Number_Guesser/" target="blank"><img src="./resourses/images/Screenshot_1.png" alt="Number Guesser Project" title="Number Guesser Project"></a>
-            <figcaption>Number Guesser</figcaption>
+            <a href="http://rita-aircrafts.surge.sh/" target="blank"><img src="./resourses/images/projects/AircraftsPrj.PNG" alt="Aircraft rotation project" title="Aircraft rotation project"></a>
+            <figcaption>Aircraft rotation project in react</figcaption>
         </figure>
         <figure>
-            <img src="./resourses/images/Screenshot_2.png" alt="Gritty Project" title="Gritty Project">
-            <figcaption>Gritty</figcaption>
+            <a href="https://infamous-border.surge.sh/" target="blank"><img src="./resourses/images/projects/JammingProject.PNG" alt="Jamming Project" title="Jamming Project"></a>
+            <figcaption>Song search feature in react using Spotify API</figcaption>
         </figure>
     </div>
 <div id="Skills" class="skills">
     <h2>Skills</h2>
-    <img src="resourses/images/html+html5+icon-1320186681398289636.png" alt="HTML" title="HTML" id="HTML">
-    <img src="resourses/images/download (1).png" alt="CSS" title="CSS" id="CSS">
-    <img src="resourses/images/download.png" alt="JS" title="JS" id="JS">
-    <img src="resourses/images/download (2).png" alt="git" title="git" id="git">
-    <img src="resourses/images/25231.png" alt="gitHub" title="gitHub" id="gitHub">
-    <img src="resourses/images/1024px-Python_icon_(black_and_white).svg.png" alt="Python" title="Python" id="Python">
+    <img class="icon" src="resourses/images/images_color/html5-logo-24.png" alt="HTML" title="HTML" id="HTML">
+    <img class="icon" src="resourses/images/images_color/css3-logo-24.png" alt="CSS" title="CSS" id="CSS">
+    <img class="icon" src="resourses/images/images_color/javascript-logo-24.png" alt="JS" title="JS" id="JS">
+    <img class="icon" src="resourses/images/images_color/git-logo-24.png" alt="git" title="git" id="git">
+    <img class="icon" src="resourses/images/images_color/github-logo-24.png" alt="gitHub" title="gitHub" id="gitHub">
+    <img class="icon" src="resourses/images/images_color/python-logo-24.png" alt="Python" title="Python" id="Python">
     </div>
     <div id="Contact" class="contact">
         <h2>Contact</h2>
-        <p>Get in contact with me!</p>
-        <a href="mailto:rita.patrocinio@live.com" target="blank" title="Email"><img src="resourses/images/images_Email.png" alt="Email" id="Email"></a>
-        <a href="https://www.linkedin.com/in/rita-patroc%C3%ADnio-a7005a161/" target="blank" title="Linkedin"><img src="resourses/images/logo-linkedin-logo-icon-png-svg.png" alt="Linkedin" id="Linkedin"></a>
-        <a href="https://github.com/ritaPatrocinio" target="blank" title="gitHub"><img src="resourses/images/25231.png" alt="gitHub" id="gitHub2"></a>
+        <p class="getInContact">Get in contact with me!</p>
+        <a href="mailto:rita.patrocinio@live.com" target="blank" title="Email"><img class="icon" src="resourses/images/images_color/mail-send-regular-24.png" alt="Email" id="Email"></a>
+        <a href="https://www.linkedin.com/in/rita-patroc%C3%ADnio-a7005a161/" target="blank" title="Linkedin"><img class="icon" src="resourses/images/images_color/linkedin-square-logo-24.png" alt="Linkedin" id="Linkedin"></a>
+        <a href="https://github.com/ritaPatrocinio" target="blank" title="gitHub"><img class="icon" src="resourses/images/images_color/github-logo-24.png" alt="gitHub" id="gitHub2"></a>
     </div>
     </main>
 <script src="./resourses/Script/script.js"></script>
