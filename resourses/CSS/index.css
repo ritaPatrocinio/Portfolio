@@ -100,7 +100,7 @@ html {
 }
 
 p {
-  font-size: 105%;
+  font-size: 100%;
     line-height: 1.5;
     text-align: justify;
     vertical-align: middle;
@@ -111,14 +111,21 @@ p {
     color: #d1b7ff;
 }
 
-h1, h2 , h3 {
+h2 , h3 {
 font-weight: 700;
 font-size: 150%;
 }
 
+#me {
+  font-size: 190%;
+  font-weight: 700;
+  margin: 4% 0;
+  color: white;
+}
+
 body {
   margin: 0 auto;
-  padding: 3%;
+  padding: 3% 0;
   background-color: #000937;
   max-width: 80%;
 }
@@ -148,6 +155,7 @@ color: #fce4ec;
 figcaption {
   color: #fce4ec;
   margin-bottom: 2%;
+  font-size: 90%;
 }
 
 img {
@@ -220,4 +228,8 @@ color: #fce4ec;
 
 .getInContact {
   margin: 0 1% 2% 0;
+}
+
+figure {
+  max-width: 500px;
 }

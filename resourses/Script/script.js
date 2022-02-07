@@ -5,12 +5,14 @@ const h2 = document.getElementsByTagName("h2");
 const icon = document.getElementsByClassName("icon");
 const a = document.getElementsByTagName("a");
 const figcaption = document.getElementsByTagName("figcaption");
+const me = document.getElementById("me");
 
 
 eventDark.addEventListener('click', DarkeventHandlerFunction);
 
 function DarkeventHandlerFunction(event) {
     document.body.style.backgroundColor = "#000937";
+    me.style.color = "white";
     Array.prototype.forEach.call(p, ps => ps.style.color = "#d1b7ff");
     Array.prototype.forEach.call(h2, ps => ps.style.color = "#fce4ec");
     Array.prototype.forEach.call(a, ps => ps.style.color = "#fce4ec");
@@ -30,6 +32,7 @@ function DarkeventHandlerFunction(event) {
 eventLight.addEventListener('click', LighteventHandlerFunction)
 
 function LighteventHandlerFunction(event) {
+    me.style.color = "#d1b7ff";
     Array.prototype.forEach.call(p, ps => ps.style.color = "#000937");
     Array.prototype.forEach.call(h2, ps => ps.style.color = "#000937");
     Array.prototype.forEach.call(a, ps => ps.style.color = "#000937");
@@ -44,4 +47,5 @@ function LighteventHandlerFunction(event) {
     document.getElementById("Email").src = "./resourses/images/images_Email.png";
     document.getElementById("Linkedin").src = "./resourses/images/logo-linkedin-logo-icon-png-svg.png";
     document.getElementById("gitHub2").src = "./resourses/images/25231.png";
+    
 }  
