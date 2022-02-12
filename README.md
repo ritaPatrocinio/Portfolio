@@ -1,3 +1,3 @@
 # Portfolio
 
-[Live version](https://ritapatrocinio.github.io/Portfolio/)
+[Live version here](https://ritapatrocinio.github.io/Portfolio/)
